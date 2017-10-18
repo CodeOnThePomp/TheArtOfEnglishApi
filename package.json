@@ -1,0 +1,27 @@
+{
+  "name": "theartofenglish",
+  "version": "1.0.0",
+  "description": "api for TheArtOfEnglish mobile app",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasimarcin/TheArtOfEnglishApi.git"
+  },
+  "dependencies":{
+    "express":"*",
+    "body-parser":"*",
+    "mongoose":"*"
+  },
+  "author": "Marcin Jasiński",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasimarcin/TheArtOfEnglishApi/issues"
+  },
+  "homepage": "https://github.com/jasimarcin/TheArtOfEnglishApi#readme"
+}
