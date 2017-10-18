@@ -8,7 +8,7 @@ mongoose.connect('mongodb://localhost/words');
 var db = mongoose.connection;
 
 app.get('/',function(req,res){
-  res.send('Hello World!');
+  res.send('Hello World!!!');
 });
 
 app.listen(3000);
